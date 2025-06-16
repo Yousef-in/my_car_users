@@ -1,0 +1,160 @@
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  border: none;
+  background-color: transparent;
+}
+table .action-icon,
+table button svg{
+  padding: 6px;
+  width: 33px !important;
+  height: 35px;
+  margin:0px 3px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: #fff;
+}
+table form button {
+  border-radius: 50px;
+}
+table .lock {
+  background-color: var(--bs-pink);
+}
+table .search {
+  background-color: var(--bs-purple);
+}
+table .active {
+  background-color: #00b15f;
+}
+table .action-icon.fa-pen{
+  background-color: var(--bs-info);
+}
+table .action-icon.fa-eye{
+  background-color: var(--bs-purple);
+}
+table .action-icon.fa-shopping-basket{
+  background-color: var(--bs-red);
+}
+/* ==================start dashboard==================== */
+.dashboard .boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.dashboard .boxes .box{
+  width: 19%;
+  background-color: #777;
+  padding: 7px 10px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+.dashboard .boxes h5{
+  font-size: 10px;
+  text-align: left;
+}
+.dashboard .boxes p{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px 0;
+}
+.dashboard .boxes .icon{
+  margin-right: 7px;
+  font-size: 40px;
+}
+.dashboard .boxes .total-car{
+  background-color: var(--bs-info-text-emphasis);
+}
+.dashboard .boxes .total-user{
+  background-color: var(--blue-color);
+}
+.dashboard .boxes .founded-car{
+  background-color: var(--bs-form-valid-color);
+}
+.dashboard .boxes .block-car{
+  background-color: var(--bs-form-invalid-color);
+}
+.dashboard .boxes .block-user{
+  background-color: var(--bs-orange);
+}
+/* ==================end dashboard==================== */
+/* ==================start manege==================== */
+.manege .head .add {
+  display: flex;
+  align-items: center;
+}
+.manege .head .add-user{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  padding: 4px 10px;
+} 
+.manege .head .icon {
+  font-size: 30px;
+}
+.manege .head .add .flex .icon{
+  margin-left: 10px;
+}
+/* ==================end manege==================== */
+/* ==================start total car==================== */
+section.total-car .head {
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top: 4px solid var(--blue-color);
+}
+section.total-car .head .search {
+  padding: 3px 7px;
+  outline: none;
+  font-size: 15px;
+  border: 1px solid #c9c9c9;
+  border-radius: 6px;
+}
+section.total-car table {
+  /* border-radius: 6px; */
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #777;
+  overflow: hidden;
+}
+section.total-car table tr:first-child {
+  font-weight: bold;
+}
+section.total-car table tr.car-status-1{
+  background-color: #fff;
+}
+section.total-car table tr.car-status-2{
+  background-color: #b8ffcf;
+}
+section.total-car table tr.car-status-3{
+  background-color: #ffb8b8;
+}
+section.total-car table td{
+  border: 1px solid #777;
+  padding: 5px 10px;
+}
+section.total-car table td.image img{
+  width: 100px;
+}
+/* ==================end total car==================== */
+/* ==================start add user==================== */
+.add-car form .active-user {
+  display: flex;
+  width: 100%;
+}
+.add-car form .active-user input{
+  width: auto;
+  margin-right: 10px;
+}
+/* ==================end add user==================== */
